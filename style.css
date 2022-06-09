@@ -1,6 +1,6 @@
 body{
     background-color: rgb(18, 17, 17);
-    background: url('/img/pexels-cottonbro-10506091.jpg');
+    background: url('./img/pexels-cottonbro-10506091.jpg');
     background-size: 100%;
 }
 
@@ -55,17 +55,17 @@ body{
 }
 
 #rock{
-    background: url('/img/rock.png');
+    background: url('./img/rock.png');
     background-size: 100%;
 }
 
 #paper{
-    background: url('/img/paper.png');
+    background: url('./img/paper.png');
     background-size: 100%;
 }
 
 #scissor{
-    background: url('/img/scissor.png');
+    background: url('./img/scissor.png');
     background-size: 100%;
 }
 
