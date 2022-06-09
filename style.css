@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(18, 17, 17);
+    background: url('/img/pexels-cottonbro-10506091.jpg');
+    background-size: 100%;
+}
+
+.container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 52px;
+}
+
+.heading{
+    padding: 10px 10px;
+    color: blueviolet;
+    background-color: aquamarine;
+
+}
+
+.gamebody{
+    display: flex;
+    gap: 30px;
+}
+
+#rock, #paper, #scissor{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(153, 89, 144);
+    text-align: center;
+    background-size: 100%;
+    align-items: flex-end;
+    font-size: 0;
+    transition: transform .2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.resultsection{
+    font-size: large;
+    color: black;
+    background-color: aquamarine;
+}
+
+#result{
+    padding: 10px 10px;
+    margin: 0;
+}
+
+#rock{
+    background: url('/img/rock.png');
+    background-size: 100%;
+}
+
+#paper{
+    background: url('/img/paper.png');
+    background-size: 100%;
+}
+
+#scissor{
+    background: url('/img/scissor.png');
+    background-size: 100%;
+}
+
