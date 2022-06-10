@@ -14,39 +14,39 @@ function singlegameresult(userinput, computerinput){
     if (userinput=='rock'){
         switch(computerinput){
             case 'rock':
-                result = "its a tie";
+                result = "its a tie try again";
                 break;
             case 'paper':
-                result = "win!! paper wins over rock";
+                result = "Lost!! Paper wins over Rock";
                 break;
             case 'scissor':
-                result = "lost!! scissor wins over rock";
+                result = "Win!! Rock wins over Scissor";
                 break;
         }
     }
     else if (userinput == 'paper'){
         switch(computerinput){
             case 'rock':
-                result = "win!! paper wins over rock";
+                result = "win!! Paper wins over Rock";
                 break;
             case 'paper':
-                result = "its a tie";
+                result = "its a tie try again";
                 break;
             case 'scissor':
-                result = "lost!! scissor wins over paper";
+                result = "lost!! Scissor wins over Paper";
                 break;
         }
     }
     else{
         switch(computerinput){
             case 'rock':
-                result = "lost!! rock wins over scissor";
+                result = "lost!! Rock wins over Scissor";
                 break;
             case 'paper':
-                result = "win!! Scissor wins over paper";
+                result = "win!! Scissor wins over Paper";
                 break;
             case 'scissor':
-                result = "its a tie";
+                result = "its a tie try again";
                 break;
         }
     }
