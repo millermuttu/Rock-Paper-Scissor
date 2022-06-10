@@ -60,7 +60,9 @@ function play(e){
     result = singlegameresult(userinput, computerinput);
 
     var updateresult = document.getElementById("result")
-    updateresult.innerText = result;
+    updateresult.innerHTML = "<p>Computer : "+computerinput+"</p>"+
+                              "<p>User: "+userinput+"</p>"+
+                              "<p>"+result+"</p>";
 }
 
 function btnhover(e){
